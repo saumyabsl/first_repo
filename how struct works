@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+struct node{
+    int i;
+    float f;
+    string s;
+    node(int i_,float f_,string s_){
+        i=i_;
+        f=f_;
+        s=s_;
+    }
+ };
+
+int main(){
+    node *saumya=new node(5,2.0,"");
+    cout<<saumya->i;
+    return 0;
+    
+}
