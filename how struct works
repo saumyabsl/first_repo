@@ -10,7 +10,7 @@ struct node{
         s=s_;
     }
  };
-
+//main code
 int main(){
     node *saumya=new node(5,2.0,"");
     cout<<saumya->i;
